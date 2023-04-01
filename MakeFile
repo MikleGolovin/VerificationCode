@@ -1,6 +1,6 @@
 CC=gcc
 CFLAGS=-I.
-DEPS = details.hpp getAccess.hpp
+DEPS = details.h getAccess.h
 
 %.o: %.c $(DEPS)
 	$(CC) -c -o $@ $< $(CFLAGS)
