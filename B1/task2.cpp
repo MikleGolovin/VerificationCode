@@ -2,7 +2,7 @@
 #include <vector>
 #include <fstream>
 #include <stdexcept>
-#include "details.hpp"
+#include "details.h"
 
 void task2(const char* file)
 {

@@ -1,7 +1,7 @@
 #include <vector>
 #include <iostream>
 #include <stdexcept>
-#include "details.hpp"
+#include "details.h"
 
 void task3()
 {

@@ -3,7 +3,7 @@
 #include <vector>
 #include <stdexcept>
 #include <random>
-#include "details.hpp"
+#include "details.h"
 
 void fillRandom(double* array, int size)
 {

@@ -3,7 +3,7 @@
 #include <cstring>
 #include <stdexcept>
 #include <cstdlib>
-#include "details.hpp"
+#include "details.h"
 
 
 void task1(std::function<bool(const int&, const int&)> sortOrder);

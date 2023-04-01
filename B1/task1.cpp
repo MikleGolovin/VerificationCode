@@ -2,8 +2,8 @@
 #include <stdexcept>
 #include <vector>
 #include <forward_list>
-#include "getAccess.hpp"
-#include "details.hpp"
+#include "getAccess.h"
+#include "details.h"
 
 void task1(std::function<bool(const int&, const int&)> sortOrder)
 {
