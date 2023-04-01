@@ -1,0 +1,9 @@
+CC=gcc
+CFLAGS=-I.
+DEPS = details.hpp getAccess.hpp
+
+%.o: %.c $(DEPS)
+	$(CC) -c -o $@ $< $(CFLAGS)
+
+hellomake: main.o task1.o task2.o task3.o task4.o
+	$(CC) -o hellomake main.o task1.o task2.o task3.o task4.o
